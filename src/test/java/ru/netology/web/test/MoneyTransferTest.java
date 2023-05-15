@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MoneyTransferTest {
     private int amountValid = 500;
-    private int amountInvalid = 30000;
+    private int amountInvalid = 11000;
 
     private DashboardPage shouldOpenDashboardPage() {
         open("http://localhost:9999");
@@ -38,9 +38,7 @@ public class MoneyTransferTest {
         moneyTransfer.doTransfer();
         assertEquals(expected1, dashboardPage.getBalanceCard1());
         assertEquals(expected2, dashboardPage.getBalanceCard2());
-    }
 
-    @Test
     void InvalidAmountFromCard2toCard1() {
         DashboardPage dashboardPage = shouldOpenDashboardPage();
         dashboardPage.dashboardPageVisible();

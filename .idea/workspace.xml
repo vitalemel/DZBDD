@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1164ff2-7356-4de6-810c-18d56bf05855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/MoneyTransferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/web/data/DataHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/web/page/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/web/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/web/page/MoneyTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/web/page/VerificationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/web/test/MoneyTransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/web/test/MoneyTransferTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +78,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.MoneyTransferTest.InvalidAmountFromCard2toCard1">
+  <component name="RunManager" selected="Gradle.MoneyTransferTest.shouldTransferMoneyFromCard2toCard1">
     <configuration name="MoneyTransferTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,9 +194,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoneyTransferTest.shouldTransferMoneyFromCard2toCard1" />
         <item itemvalue="Gradle.MoneyTransferTest.InvalidAmountFromCard2toCard1" />
         <item itemvalue="Gradle.MoneyTransferTest.shouldTransferInvalidAmountFromCard2toCard1" />
-        <item itemvalue="Gradle.MoneyTransferTest.shouldTransferMoneyFromCard2toCard1" />
         <item itemvalue="Gradle.MoneyTransferTest" />
         <item itemvalue="Gradle.bdd [delombokTest]" />
       </list>
