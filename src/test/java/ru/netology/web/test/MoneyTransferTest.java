@@ -38,7 +38,8 @@ public class MoneyTransferTest {
         moneyTransfer.doTransfer();
         assertEquals(expected1, dashboardPage.getBalanceCard1());
         assertEquals(expected2, dashboardPage.getBalanceCard2());
-
+    }
+    @Test
     void InvalidAmountFromCard2toCard1() {
         DashboardPage dashboardPage = shouldOpenDashboardPage();
         dashboardPage.dashboardPageVisible();
